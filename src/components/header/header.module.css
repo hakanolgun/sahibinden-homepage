@@ -131,8 +131,7 @@
 }
 
 /* RIGHT CONTAİNER */
-.rightContainer {
-}
+
 .rightContainer > ul {
   display: flex;
   align-items: center;
