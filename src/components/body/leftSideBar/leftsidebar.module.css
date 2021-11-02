@@ -1,0 +1,171 @@
+.aside {
+  width: 261px;
+  max-width: 261px;
+  padding: 1rem 0 0 0;
+  position: relative;
+}
+.aside a {
+  font-size: 13px;
+  line-height: 28px;
+  color: #039;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+.aside a:hover {
+  text-decoration: underline;
+}
+.aside > nav {
+  margin: 0;
+  padding: 0;
+}
+.aside ul {
+  text-align: left;
+  border-bottom: 1px solid #e6e6e6;
+  padding: 0.5rem 0 8px 35px;
+  margin: 0;
+}
+
+.aside em {
+  font-size: 12px;
+  color: gray;
+}
+
+/* BEFORE ICON*/
+
+.aside ul li::before {
+  position: absolute;
+  margin-top: 3px;
+  left: 0;
+}
+
+.liAcilAcil::before {
+  background-image: url("/src/assets/categoryIcons.png");
+  background-position: 0 0;
+  width: 24px;
+  height: 24px;
+  content: "";
+  display: inline-block;
+}
+.liFiyatiDusen::before {
+  background-image: url("/src/assets/categoryIcons.png");
+  background-position: -102px 0;
+  width: 24px;
+  height: 24px;
+  content: "";
+  display: inline-block;
+}
+.son48::before {
+  background-image: url("/src/assets/categoryIcons.png");
+  background-position: -170px 0;
+  width: 24px;
+  height: 24px;
+  content: "";
+  display: inline-block;
+}
+.son48 * {
+  display: inline;
+}
+.oto360::before {
+  background-image: url("/src/assets/categoryIcons.png");
+  background-position: 0 -34px;
+  width: 24px;
+  height: 24px;
+  content: "";
+  display: inline-block;
+}
+.emlak360::before {
+  background-image: url("/src/assets/categoryIcons.png");
+  background-position: -34px -68px;
+  width: 24px;
+  height: 24px;
+  content: "";
+  display: inline-block;
+}
+.emlakLi::before {
+  background-image: url("/src/assets/categoryIcons.png");
+  background-position: 0 -68px;
+  width: 24px;
+  height: 24px;
+  content: "";
+  display: inline-block;
+}
+.emlakLi > a {
+  font-weight: bolder;
+}
+
+.vasitaLi::before {
+  background-image: url("/src/assets/categoryIcons.png");
+  background-position: -170px -102px;
+  width: 24px;
+  height: 24px;
+  content: "";
+  display: inline-block;
+}
+.vasitaLi > a {
+  font-weight: bolder;
+}
+.tumunuGoster::after {
+  background-image: url("/src/assets/homepage.png");
+  background-position: -45px -45px;
+  width: 12px;
+  height: 6px;
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+  position: relative;
+  left: 8px;
+  bottom: 1px;
+}
+
+.yedekParcaLi::before {
+  background-image: url("/src/assets/categoryIcons.png");
+  background-position: -68px -170px;
+  width: 24px;
+  height: 24px;
+  content: "";
+  display: inline-block;
+}
+.yedekParcaLi > a {
+  font-weight: bolder;
+}
+
+.ikinciElLi::before {
+  background-image: url("/src/assets/categoryIcons.png");
+  background-position: -136px -34px;
+  width: 24px;
+  height: 24px;
+  content: "";
+  display: inline-block;
+}
+.ikinciElLi > a {
+  font-weight: bolder;
+}
+
+.isMakineleriLi::before {
+  background-image: url("/src/assets/categoryIcons.png");
+  background-position: -34px -136px;
+  width: 24px;
+  height: 24px;
+  content: "";
+  display: inline-block;
+}
+.isMakineleriLi > a {
+  font-weight: bolder;
+}
+.ustaLarLi::before {
+  background-image: url("/src/assets/categoryIcons.png");
+  background-position: -170px -68px;
+  width: 24px;
+  height: 24px;
+  content: "";
+  display: inline-block;
+}
+.ustaLarLi > a {
+  font-weight: bolder;
+}

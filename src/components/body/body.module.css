@@ -1,0 +1,9 @@
+.bodyContainer {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(233, 233, 240);
+}
+.secondContainer {
+  width: 1115px;
+  background-color: #fff;
+}
