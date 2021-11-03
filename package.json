@@ -1,5 +1,6 @@
 {
   "name": "sahibinden-homepage",
+  "author": "hakan olgun",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
