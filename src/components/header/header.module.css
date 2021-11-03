@@ -54,7 +54,7 @@
   padding-left: 7px;
   padding-right: 40px;
   margin-top: 11px;
-  background: #2f3546;
+  background-color: #2f3546;
   font-size: 11px;
   border: 0;
   border-radius: 3px;
@@ -99,6 +99,18 @@
   color: white;
   top: 1px;
 }
+.searchContainer input:focus + .searchBtn::before {
+  background-image: url("/src/assets/sahibindenlogos.png");
+  background-position: -27px -264px;
+  width: 16px;
+  height: 16px;
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  text-indent: 0;
+  font-size: 18px;
+  color: #fff;
+}
 
 .searchContainer input:focus ~ a {
   visibility: hidden;
@@ -116,6 +128,7 @@
   display: none;
   position: relative;
   top: 4.5px;
+  right: 13px;
   line-height: 0rem;
 }
 .xBtn:hover {
