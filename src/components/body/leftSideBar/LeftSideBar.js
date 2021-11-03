@@ -264,6 +264,104 @@ export default function LeftSideBar() {
             </a>
           </li>
         </ul>
+        <ul>
+          <li className={styles.özelDersLi}><a href="/">Özel Ders Verenler</a><em> (4.841)</em></li>
+          <li><a href="/">Lise & Üniversite</a><em> (4.841)</em></li>
+          <li><a href="/">İlkokul & Ortaokul</a><em> (4.841)</em></li>
+          <li><a href="/">Yabancı Dil</a><em> (4.841)</em></li>
+          <li>
+            <a href="/" className={styles.tumunuGoster}>
+              Tümünü Göster
+            </a>
+          </li>
+        </ul>
+        <ul>
+          <li className={styles.isİlanLi}><a href="/">İş İlanları</a><em> (2.964)</em></li>
+          <li><a href="/">Avukatlık & Hukuki Danışmanlı</a><em> (12)</em></li>
+          <li><a href="/">Eğitim</a><em> (2.964)</em></li>
+          <li><a href="/">Eğlence ve Aktiviteler</a><em> (2.964)</em></li>
+          <li><a href="/">Güzellik ve Bakım</a><em> (2.964)</em></li>
+          <li><a href="/">IT ve Yazılım Geliştirme</a><em> (2.964)</em></li>
+          <li><a href="/">İnsan Kaynakları</a><em> (2.964)</em></li>
+          <li>
+            <a href="/" className={styles.tumunuGoster}>
+              Tümünü Göster
+            </a>
+          </li>
+        </ul>
+        <ul>
+          <li className={styles.yardımcıArayanLi}>
+            <a href="/">Yardımcı Arayanlar</a>
+            <em> (1.196)</em>
+          </li>
+          <li>
+            <a href="/">Bebek & Çocuk Bakıcısı</a>
+            <em> (1.196)</em>
+          </li>
+          <li>
+            <a href="/">Yaşlı & Hasta Bakıcısı</a>
+            <em> (1.196)</em>
+          </li>
+          <li>
+            <a href="/">Temizlikçi & Ev İşlerine Yardımcı</a>
+            <em> (1.196)</em>
+          </li>
+        </ul>
+        <ul className={styles.hayvanlarUl}>
+          <li className={styles.hayvanlarLi}>
+            <a href="/">Hayvanlar Alemi</a>
+            <em> (2.965)</em>
+          </li>
+          <li>
+            <a href="/">Evcil Hayvanlar</a>
+            <em> (2.965)</em>
+          </li>
+          <li>
+            <a href="/">Akvaryum Balıkları</a>
+            <em> (2.965)</em>
+          </li>
+          <li>
+            <a href="/">Aksesuarlar</a>
+            <em> (2.965)</em>
+          </li>
+          <li>
+            <a href="/">Bakım Ürünleri</a>
+            <em> (2.965)</em>
+          </li>
+          <li>
+            <a href="/">Yem & Mama</a>
+            <em> (2.965)</em>
+          </li>
+          <li>
+            <a href="/">Kümes Hayvanları</a>
+            <em> (2.965)</em>
+          </li>
+          <li>
+            <a href="/">Büyükbaş Hayvanlar</a>
+            <em> (2.965)</em>
+          </li>
+          <li>
+            <a href="/">Küçükbaş Hayvanlar</a>
+            <em> (2.965)</em>
+          </li>
+          <li>
+            <a href="/" className={styles.tumunuGoster}>
+              Tümünü Göster
+            </a>
+          </li>
+        </ul>
+        <h3 className={styles.sectikH3}>Seçtiklerimiz</h3>
+        <ul>
+          <li className={styles.hikayePaylasLi}>
+            <a href="/">Hikayeni Paylaş</a>
+          </li>
+          <li className={styles.efsaneLi}>
+            <a href="/">Efsane İlanlar</a>
+          </li>
+          <li className={styles.ilgincLi}>
+            <a href="/">İlginç İlanlar</a>
+          </li>
+        </ul>
       </nav>
     </aside>
   );
