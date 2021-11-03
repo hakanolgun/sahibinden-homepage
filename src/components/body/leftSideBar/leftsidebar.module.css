@@ -1,7 +1,8 @@
 .aside {
   width: 261px;
   max-width: 261px;
-  padding: 1rem 7px 0 0;
+  padding: 1rem 0px 0 0;
+  margin-right: 6px;
   position: relative;
   display: inline-block;
 }

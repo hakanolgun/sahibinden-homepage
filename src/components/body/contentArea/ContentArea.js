@@ -2,6 +2,7 @@ import styles from "./contentarea.module.css";
 import otomobil from "../../../assets/otomobil.jpg";
 import Projeler from "./projeler/Projeler";
 import S360 from "./s360/s360";
+import Anahtar from "./anahtar/Anahtar";
 
 export default function ContentArea() {
   const arr = [];
@@ -25,6 +26,7 @@ export default function ContentArea() {
       </div>
       <S360 />
       <Projeler />
+      <Anahtar />
     </div>
   );
 }
