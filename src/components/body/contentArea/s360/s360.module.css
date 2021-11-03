@@ -1,0 +1,100 @@
+/*Content Area Oto360 Section*/
+
+.contentAreaOto360Container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #e6e6e6;
+    padding-bottom: 7px;
+    font-size: 13px;
+    font-weight: normal;
+    margin-top: 110px;
+  }
+  
+  .oto360AltListeDiv {
+    margin: 0;
+    margin-top: 10px;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  .emlak360AltListeDiv {
+    justify-content: flex-start;
+    gap: 0.5rem;
+  }
+  .oto360AltListeDiv ul {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    min-width: 95px;
+  }
+  .oto360A {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    -moz-box-align: center;
+    font-size: 11.5px;
+    text-align: left;
+    text-decoration: none;
+    height: 30px;
+    line-height: 125%;
+  }
+  .oto360A:hover {
+    text-decoration: underline;
+  }
+  .oto360A::before {
+    background-image: url("/src/assets/s360HomePageShowcase.png");
+    width: 24px;
+    height: 24px;
+    content: "";
+    flex-shrink: 0;
+    display: inline-block;
+    margin-right: 5px;
+  }
+  
+  .AracDegerlemeA::before {
+    background-position: -34px 0;
+  }
+  .AracKarsilastirmaA::before {
+    background-position: -68px 0;
+  }
+  .AracHasarA::before {
+    background-position: -102px 0;
+  }
+  .OtoEkspertizA::before {
+    background-position: 0 -69px;
+  }
+  .KrediTekA::before {
+    background-position: -102px -34px;
+  }
+  .SifirAracA::before {
+    background-position: -34px -69px;
+  }
+  .AracAlimA::before {
+    background-position: 0 -35px;
+  }
+  .AracSatisA::before {
+    background-position: 0 -35px;
+  }
+  
+  /* Content Area Emlak 360 */
+  
+  .contentAreaEmlak360Container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #e6e6e6;
+    padding-bottom: 7px;
+    font-size: 13px;
+    font-weight: normal;
+    margin-top: 50px;
+  }
+  
+  .Emlak360AltListeDiv {
+    margin: 0;
+    margin-top: 10px;
+    padding: 0;
+    display: flex;
+    background-color: yellow;
+  }
+  

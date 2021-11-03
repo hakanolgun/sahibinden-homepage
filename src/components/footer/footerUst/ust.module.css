@@ -1,11 +1,13 @@
-.footerUstContainer{
-    padding-top: 0rem;
-    display: block;
+.footerUstContainer {
+  padding-top: 0rem;
+  padding-bottom: 1rem;
+  display: flex;
+  flex-wrap: nowrap;
 }
 
 .besliCete {
-  float: left;
   width: 234px;
+  display: inline-block;
 }
 .besliCeteSon {
   width: 130px;

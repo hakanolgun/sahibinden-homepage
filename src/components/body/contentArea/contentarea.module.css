@@ -1,6 +1,6 @@
 .contentAreaContainer {
-  width: 838px;
-  max-width: 838px;
+  width: 837px;
+  max-width: 837px;
   margin: 1.5rem 0;
   padding: 0;
   clear: left;
@@ -19,6 +19,7 @@
   color: #039;
   text-decoration: none;
   outline: 0;
+  padding-right: 0.5rem;
 }
 .contentAreaHeaderContainer a:hover {
   text-decoration: underline;
@@ -27,7 +28,6 @@
 /* Content Area Product List with Image*/
 .contentAreaProductContainer {
   width: 100%;
-  height: 100%;
   margin: 0;
   border: none;
   outline: none;
@@ -39,10 +39,9 @@
 }
 
 .productA {
-  /* float: left; */
-  width: 104px;
+  width: 103px;
   max-height: 109px;
-  padding: 7px 14px 5px 0;
+  padding: 7px 16px 5px 0;
   text-align: left;
   font-size: 11px;
   color: initial;
@@ -64,98 +63,3 @@
   margin-top: 3px;
 }
 
-/*Content Area Oto360 Section*/
-
-.contentAreaOto360Container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  border-bottom: 1px solid #e6e6e6;
-  padding-bottom: 7px;
-  font-size: 13px;
-  font-weight: normal;
-  margin-top: 110px;
-}
-
-.oto360AltListeDiv {
-  margin: 0;
-  margin-top: 10px;
-  padding: 0;
-  display: flex;
-  gap: 5px;
-}
-.oto360AltListeDiv ul {
-  display: inline-block;
-  margin-right: 5px;
-  width: 95px;
-}
-.oto360AltListeDiv ul a {
-  display: flex;
-  align-items: center;
-  -moz-box-align: center;
-  flex-shrink: 0;
-  font-size: 12px;
-  text-align: left;
-  text-decoration: none;
-  height: 30px;
-  line-height: 125%;
-}
-.oto360AltListeDiv ul a:hover {
-  text-decoration: underline;
-}
-
-.oto360A::before {
-  background-image: url("/src/assets/s360HomePageShowcase.png");
-  width: 24px;
-  height: 24px;
-  content: "";
-  flex-shrink: 0;
-  display: inline-block;
-  margin-right: 5px;
-}
-
-.AracDegerlemeA::before {
-  background-position: -34px 0;
-}
-.AracKarsilastirmaA::before {
-  background-position: -68px 0;
-}
-.AracHasarA::before {
-  background-position: -102px 0;
-}
-.OtoEkspertizA::before {
-  background-position: 0 -69px;
-}
-.KrediTekA::before {
-  background-position: -102px -34px;
-}
-.SifirAracA::before {
-  background-position: -34px -69px;
-}
-.AracAlimA::before {
-  background-position: 0 -35px;
-}
-.AracSatisA::before {
-  background-position: 0 -35px;
-}
-
-/* Content Area Emlak 360 */
-
-.contentAreaEmlak360Container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  border-bottom: 1px solid #e6e6e6;
-  padding-bottom: 7px;
-  font-size: 13px;
-  font-weight: normal;
-  margin-top: 50px;
-}
-
-.Emlak360AltListeDiv {
-  margin: 0;
-  margin-top: 10px;
-  padding: 0;
-  display: flex;
-  background-color: yellow;
-}

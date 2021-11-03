@@ -1,17 +1,18 @@
 .aside {
   width: 261px;
   max-width: 261px;
-  padding: 1rem 0 0 0;
+  padding: 1rem 7px 0 0;
   position: relative;
   display: inline-block;
 }
 .aside a {
-  font-size: 13px;
+  font-size: 12px;
   line-height: 28px;
   color: #039;
   text-decoration: none;
   margin: 0;
   padding: 0;
+  font-weight: 500;
 }
 .aside a:hover {
   text-decoration: underline;
@@ -27,8 +28,15 @@
   margin: 0;
 }
 
-.aside ul:last-of-type{
+.aside ul:last-of-type {
   border-bottom: none;
+}
+
+.aside ul li,
+.aside ul li a {
+  padding: 0;
+  margin: 0;
+  line-height: 140%;
 }
 
 .aside em {
@@ -97,6 +105,29 @@
 }
 .emlakLi > a {
   font-weight: bolder;
+}
+.newCategory {
+  position: relative;
+  display: inline-block;
+  margin-left: 15px;
+  font-size: 10px;
+  color: #fff;
+  bottom: 2px;
+  line-height: 27px;
+  z-index: 0;
+}
+.newCategory::before {
+  background-image: url("/src/assets/homepage.png");
+  background-position: -40px -70px;
+  width: 38px;
+  height: 14px;
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  position: absolute;
+  z-index: -1;
+  top: 7px;
+  left: -10px;
 }
 
 .vasitaLi::before {
@@ -199,11 +230,6 @@
   font-weight: bolder;
 }
 
-
-
-
-
-
 .yardımcıArayanLi::before {
   background-image: url("/src/assets/categoryIcons.png");
   background-position: -34px -170px;
@@ -266,4 +292,10 @@ aside .hayvanlarUl {
   height: 24px;
   content: "";
   display: inline-block;
+}
+
+.aside .baslangicUl li,
+.aside .bitisUl li {
+  margin: initial;
+  padding: 3px 0px;
 }

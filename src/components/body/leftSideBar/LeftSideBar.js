@@ -4,7 +4,7 @@ export default function LeftSideBar() {
   return (
     <aside className={styles.aside}>
       <nav>
-        <ul>
+        <ul className={styles.baslangicUl}>
           <li className={styles.liAcilAcil}>
             <a href="/">Acil Acil</a>
           </li>
@@ -19,12 +19,16 @@ export default function LeftSideBar() {
             <a href="/">1 Ay</a>
           </li>
         </ul>
-        <ul>
+        <ul className={styles.baslangicUl}>
           <li className={styles.oto360}>
-            <a href="/">Oto 360</a>
+            <a href="/">
+              Oto 360 <span className={styles.newCategory}>yeni</span>
+            </a>
           </li>
           <li className={styles.emlak360}>
-            <a href="/">Emlak 360</a>
+            <a href="/">
+              Emlak 360 <span className={styles.newCategory}>yeni</span>
+            </a>
           </li>
         </ul>
         <ul>
@@ -265,10 +269,22 @@ export default function LeftSideBar() {
           </li>
         </ul>
         <ul>
-          <li className={styles.özelDersLi}><a href="/">Özel Ders Verenler</a><em> (4.841)</em></li>
-          <li><a href="/">Lise & Üniversite</a><em> (4.841)</em></li>
-          <li><a href="/">İlkokul & Ortaokul</a><em> (4.841)</em></li>
-          <li><a href="/">Yabancı Dil</a><em> (4.841)</em></li>
+          <li className={styles.özelDersLi}>
+            <a href="/">Özel Ders Verenler</a>
+            <em> (4.841)</em>
+          </li>
+          <li>
+            <a href="/">Lise & Üniversite</a>
+            <em> (4.841)</em>
+          </li>
+          <li>
+            <a href="/">İlkokul & Ortaokul</a>
+            <em> (4.841)</em>
+          </li>
+          <li>
+            <a href="/">Yabancı Dil</a>
+            <em> (4.841)</em>
+          </li>
           <li>
             <a href="/" className={styles.tumunuGoster}>
               Tümünü Göster
@@ -276,13 +292,34 @@ export default function LeftSideBar() {
           </li>
         </ul>
         <ul>
-          <li className={styles.isİlanLi}><a href="/">İş İlanları</a><em> (2.964)</em></li>
-          <li><a href="/">Avukatlık & Hukuki Danışmanlı</a><em> (12)</em></li>
-          <li><a href="/">Eğitim</a><em> (2.964)</em></li>
-          <li><a href="/">Eğlence ve Aktiviteler</a><em> (2.964)</em></li>
-          <li><a href="/">Güzellik ve Bakım</a><em> (2.964)</em></li>
-          <li><a href="/">IT ve Yazılım Geliştirme</a><em> (2.964)</em></li>
-          <li><a href="/">İnsan Kaynakları</a><em> (2.964)</em></li>
+          <li className={styles.isİlanLi}>
+            <a href="/">İş İlanları</a>
+            <em> (2.964)</em>
+          </li>
+          <li>
+            <a href="/">Avukatlık & Hukuki Danışmanlı</a>
+            <em> (12)</em>
+          </li>
+          <li>
+            <a href="/">Eğitim</a>
+            <em> (2.964)</em>
+          </li>
+          <li>
+            <a href="/">Eğlence ve Aktiviteler</a>
+            <em> (2.964)</em>
+          </li>
+          <li>
+            <a href="/">Güzellik ve Bakım</a>
+            <em> (2.964)</em>
+          </li>
+          <li>
+            <a href="/">IT ve Yazılım Geliştirme</a>
+            <em> (2.964)</em>
+          </li>
+          <li>
+            <a href="/">İnsan Kaynakları</a>
+            <em> (2.964)</em>
+          </li>
           <li>
             <a href="/" className={styles.tumunuGoster}>
               Tümünü Göster
@@ -351,7 +388,7 @@ export default function LeftSideBar() {
           </li>
         </ul>
         <h3 className={styles.sectikH3}>Seçtiklerimiz</h3>
-        <ul>
+        <ul className={styles.bitisUl}>
           <li className={styles.hikayePaylasLi}>
             <a href="/">Hikayeni Paylaş</a>
           </li>
