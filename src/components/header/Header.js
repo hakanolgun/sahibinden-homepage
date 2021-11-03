@@ -5,7 +5,7 @@ export default function Header() {
     <div className={styles.headerContainer}>
       <div className={styles.secondContainer}>
         <div className={styles.logoContainer}>
-          <a className={styles.logo} href="https://www.sahibinden.com"></a>
+          <a className={styles.logo} href="https://www.sahibinden.com"> </a>
         </div>
         <div className={styles.searchContainer}>
           <form action="">
@@ -15,7 +15,7 @@ export default function Header() {
             />
             <button className={styles.searchBtn}></button>
             <button className={styles.xBtn}>x</button>
-            <a className={styles.detayliArama} href="#">
+            <a className={styles.detayliArama} href="/">
               Detaylı Arama
             </a>
           </form>
@@ -23,20 +23,20 @@ export default function Header() {
         <div className={styles.rightContainer}>
           <ul>
             <li>
-              <a className={styles.girisveuyeollink} href="#">
+              <a className={styles.girisveuyeollink} href="/">
                 Giriş Yap
               </a>
             </li>
             <li>
               <a
                 className={`${styles.girisveuyeollink} ${styles.uyeol}`}
-                href="#"
+                href="/"
               >
                 Üye Ol
               </a>
             </li>
             <li>
-              <a className={styles.ucretsizilanlink} href="#">
+              <a className={styles.ucretsizilanlink} href="/">
                 Ücretsiz* İlan Ver
               </a>
             </li>

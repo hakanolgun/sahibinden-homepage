@@ -3,6 +3,7 @@
   max-width: 261px;
   padding: 1rem 0 0 0;
   position: relative;
+  display: inline-block;
 }
 .aside a {
   font-size: 13px;
