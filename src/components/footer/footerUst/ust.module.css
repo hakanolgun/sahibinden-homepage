@@ -1,5 +1,5 @@
 .footerUstContainer{
-    padding-top: 2rem;
+    padding-top: 0rem;
     display: block;
 }
 
@@ -20,6 +20,7 @@
   font-weight: bold;
   color: #555;
   padding: 0.5rem 0;
+  margin-bottom: 5px;
 }
 
 .besliCete > a {
@@ -27,6 +28,7 @@
   color: #888;
   text-decoration: none;
   line-height: 20px;
+  margin-bottom: 8px;
 }
 .besliCete > a:hover {
   text-decoration: underline;

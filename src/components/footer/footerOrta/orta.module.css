@@ -12,7 +12,9 @@
 .li {
   height: 34px;
 }
-
+.li > p{
+    font-size: 14px;
+}
 .callCenterLi {
   float: left;
   padding-left: 50px;
